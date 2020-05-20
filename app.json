@@ -2,18 +2,19 @@
   "expo": {
     "name": "Booking_App",
     "slug": "Booking_App",
+    "sdkVersion": "37.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mainicon.png",
+    "backgroundColor":"#d7fbe8",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#d7fbe8"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,6 +24,12 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android":{
+        "versionCode":1,
+        "package":"com.techronx.Booking_App"
     }
+
   }
+  
 }
